@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getOrders, deleteOrder, postOrder, putOrder } from '../services/orderService';
 import Order from '../types/Order';
+import formatDate from '../utils/formatDate';
 
 export const useOrders = () => {
   const [orders, setOrders] = useState<Order[]>([]);
@@ -42,7 +43,8 @@ export const useOrders = () => {
 
     const filtered = orders.filter((order) =>
       order.cliente.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      order.produto.toLowerCase().includes(searchTerm.toLowerCase())
+      order.produto.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      formatDate(order.dataCriacao).toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredOrders(filtered);
   };

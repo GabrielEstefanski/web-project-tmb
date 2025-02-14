@@ -61,7 +61,7 @@ const OrderTable = ({
       </table>
       <div className="flex sticky left-0  w-full justify-between p-4 text-sm items-center bg-white dark:bg-gray-800">
         <label className="text-gray-600 dark:text-gray-400">
-          Mostrando {startEntry} até {endEntry} de {orders.length} produtos
+          Mostrando {startEntry} até {endEntry} de {orders.length} pedidos
         </label>
         <Pagination
           currentPage={currentPage}

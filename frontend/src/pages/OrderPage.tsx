@@ -58,7 +58,7 @@ const OrderPage = () => {
     <div className="flex justify-center">
       <div className="relative w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="font-bold text-gray-700 dark:text-gray-300 text-xl sm:text-3xl lg:text-4xl">
-          Gerenciamento de Produtos
+          Gerenciamento de Pedidos
         </h1>
         <div className="relative shadow-md rounded-lg mt-4 lg:mt-8 overflow-hidden">
           {loading ? (

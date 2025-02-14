@@ -25,7 +25,7 @@ const ToolBar = ({ onSearch, onOrderCreated }: ToolBarProps) => {
               value={searchTerm}
               icon={<i className="fa fa-search text-gray-500 dark:text-gray-400" aria-hidden="true"/>}
               onChange={handleSearch}
-              placeholder="Filtrar produtos"
+              placeholder="Filtrar pedidos"
               className="lg:w-80 sm:min-w-20"
             />
           </div>
@@ -36,7 +36,7 @@ const ToolBar = ({ onSearch, onOrderCreated }: ToolBarProps) => {
             onClick={onOrderCreated}
           >
             <i className="fa fa-plus" />
-            <span className="hidden sm:inline ml-2">Adicionar Produto</span>
+            <span className="hidden sm:inline ml-2">Adicionar Pedido</span>
           </button>
         </div>
       </div>
