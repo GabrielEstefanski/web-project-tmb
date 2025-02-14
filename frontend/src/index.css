@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    --text: #080d0a;
+    background-color: #f8f8ff;
+  }
+
+  .dark body {
+    --text: #f2f7f4;
+    background-color: var(--color-gray-900);
+  }
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dark {
+  background-color: var(--theme-color-background);
+  color: var(--theme-color-foreground);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));

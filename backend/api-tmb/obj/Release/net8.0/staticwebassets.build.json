@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Nt0cY369d1nqmLD7E3uNv9SmBT+nLpeluOYP0HtIxVA=",
+  "Source": "api-tmb",
+  "BasePath": "_content/api-tmb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
