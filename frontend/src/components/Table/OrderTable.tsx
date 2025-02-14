@@ -59,7 +59,7 @@ const OrderTable = ({
           onEdit={onEdit}
         />
       </table>
-      <div className="flex sticky left-0  w-full justify-between p-4 text-sm items-center bg-white dark:bg-gray-800">
+      <div className="flex flex-col sm:flex-row sticky left-0 w-full justify-between p-4 text-sm items-start sm:items-center bg-white dark:bg-gray-800 gap-2 sm:gap-0">
         <label className="text-gray-600 dark:text-gray-400">
           Mostrando {startEntry} até {endEntry} de {orders.length} pedidos
         </label>
