@@ -29,7 +29,7 @@ namespace ApiTmb.Data.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateOrderAsync(Order order)
+        public async Task<Order> UpdateOrderAsync(Order order)
         {
             var existingOrder = await _context.Orders.FindAsync(order.Id);
             if (existingOrder == null)
@@ -39,6 +39,10 @@ namespace ApiTmb.Data.Repositories
 
             _context.Entry(existingOrder).CurrentValues.SetValues(order);
             await _context.SaveChangesAsync();
+
+            var updatedOrder = await _context.Orders.FindAsync(order.Id);
+
+            return updatedOrder!;
         }
 
         public async Task DeleteOrderAsync(Order order)

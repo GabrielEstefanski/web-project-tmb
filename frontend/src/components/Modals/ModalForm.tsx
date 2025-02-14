@@ -15,39 +15,50 @@ const ModalForm = ({ isOpen, onClose, onSubmit, orderToEdit }: ModalFormProps) =
   const [cliente, setCliente] = useState<string>("");
   const [produto, setProduto] = useState<string>("");
   const [valor, setValor] = useState<number>(0);
+  const [initialOrder, setInitialOrder] = useState<Partial<Order> | null>(null);
 
   useEffect(() => {
     if (orderToEdit) {
       setCliente(orderToEdit.cliente);
       setProduto(orderToEdit.produto);
       setValor(orderToEdit.valor);
+      setInitialOrder({ ...orderToEdit });
     } else {
       setCliente("");
       setProduto("");
       setValor(0);
+      setInitialOrder(null);
     }
   }, [orderToEdit]);
+
+  const isFormChanged = () => {
+    if (!initialOrder) return cliente || produto || valor > 0;
+    return (
+      cliente !== initialOrder.cliente ||
+      produto !== initialOrder.produto ||
+      valor !== initialOrder.valor
+    );
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     const newOrder: Partial<Order> = orderToEdit
-    ? {
-        id: orderToEdit.id,
-        cliente,
-        produto,
-        valor,
-        status: orderToEdit.status,
-        dataCriacao: orderToEdit.dataCriacao,
-      }
-    : {
-        cliente,
-        produto,
-        valor
-      };
+      ? {
+          id: orderToEdit.id,
+          cliente,
+          produto,
+          valor,
+          status: orderToEdit.status,
+          dataCriacao: orderToEdit.dataCriacao,
+        }
+      : {
+          cliente,
+          produto,
+          valor
+        };
 
     onSubmit(newOrder);
-
     onClose();
   };
 
@@ -90,7 +101,10 @@ const ModalForm = ({ isOpen, onClose, onSubmit, orderToEdit }: ModalFormProps) =
             </button>
             <button
               type="submit"
-              className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+              disabled={!isFormChanged()}
+              className={`px-4 py-2 rounded-md text-white ${
+                isFormChanged() ? "bg-blue-600 hover:bg-blue-700" : "bg-gray-400 cursor-not-allowed pointer-events-none"
+              }`}
             >
               {orderToEdit ? "Salvar Alterações" : "Criar Pedido"}
             </button>

@@ -63,10 +63,10 @@ namespace ApiTmb.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<ActionResult> UpdateOrder([FromBody] Order order)
+        public async Task<ActionResult<Order>> UpdateOrder([FromBody] Order order)
         {
-            await _orderService.UpdateOrderAsync(order);
-            return NoContent();
+            var updatedOrder = await _orderService.UpdateOrderAsync(order);
+            return updatedOrder!;
         }
 
         [HttpDelete("{id}")]

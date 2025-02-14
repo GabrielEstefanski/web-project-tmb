@@ -7,7 +7,7 @@ namespace ApiTmb.Data.Repositories
         Task<IEnumerable<Order>> GetAllOrdersAsync();
         Task<Order> GetOrderByIdAsync(Guid id);
         Task AddOrderAsync(Order order);
-        Task UpdateOrderAsync(Order order);
+        Task<Order> UpdateOrderAsync(Order order);
         Task DeleteOrderAsync(Order order);
     }
 }
