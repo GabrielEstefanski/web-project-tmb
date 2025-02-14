@@ -43,7 +43,7 @@ const OrderTable = ({
     <div className="relative w-full max-h-[1000px] overflow-auto z-5">
       <ToolBar onSearch={handleSearch} onOrderCreated={onOrderCreated} />
       <table className="w-full text-sm text-left rtl:text-right text-gray-700 dark:text-gray-400 table-auto">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-500 dark:text-gray-300">
+        <thead className="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-500 dark:text-gray-300">
           <tr>
             <th scope="col" className="px-6 py-3">Cliente</th>
             <th scope="col" className="px-6 py-3">Produto</th>

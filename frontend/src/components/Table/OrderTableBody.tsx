@@ -18,7 +18,7 @@ const OrderTableBody = ({
     <tbody>
       {orders.length === 0 ? (
         <tr>
-          <td colSpan={5} className="px-6 py-4 text-center text-gray-700 dark:text-gray-400 bg-white dark:bg-gray-700">
+          <td colSpan={5} className="px-6 py-4 text-center text-gray-700 dark:text-gray-400 bg-gray-200 dark:bg-gray-700">
             Sem registro de pedidos
           </td>
         </tr>

@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\migrations\\20250212232748_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\migrations\\20250212232748_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\migrations\\20250212233204_adddefaultdatacriacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\migrations\\20250212233204_adddefaultdatacriacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\api-tmb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\api-tmb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\services\\orderprocessingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\services\\orderprocessingworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\services\\servicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\services\\servicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|c:\\users\\gabriel\\desktop\\web-project-tmb\\backend\\api-tmb\\services\\iservicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53ED4A46-A4E1-4D53-8854-566A0A00EEA6}|api-tmb\\ApiTmb.csproj|solutionrelative:api-tmb\\services\\iservicebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +74,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250212233204_AddDefaultDataCriacao.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Migrations\\20250212233204_AddDefaultDataCriacao.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Migrations\\20250212233204_AddDefaultDataCriacao.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Migrations\\20250212233204_AddDefaultDataCriacao.cs",
+              "RelativeToolTip": "api-tmb\\Migrations\\20250212233204_AddDefaultDataCriacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T23:31:41.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "api-tmb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T23:31:27.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250212232748_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Migrations\\20250212232748_InitialCreate.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Migrations\\20250212232748_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Migrations\\20250212232748_InitialCreate.cs",
+              "RelativeToolTip": "api-tmb\\Migrations\\20250212232748_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T23:31:24.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "api-tmb.http",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\api-tmb.http",
+              "RelativeDocumentMoniker": "api-tmb\\api-tmb.http",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\api-tmb.http",
+              "RelativeToolTip": "api-tmb\\api-tmb.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-13T23:25:31.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Dockerfile",
+              "RelativeDocumentMoniker": "api-tmb\\Dockerfile",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Dockerfile",
+              "RelativeToolTip": "api-tmb\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-13T22:51:42.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "api-tmb\\Hubs\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:50.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderProcessingWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\OrderProcessingWorker.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Services\\OrderProcessingWorker.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\OrderProcessingWorker.cs",
+              "RelativeToolTip": "api-tmb\\Services\\OrderProcessingWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:32.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "api-tmb\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:21.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "api-tmb\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:28:54.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Program.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Program.cs",
+              "RelativeToolTip": "api-tmb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:20:06.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.json",
+              "RelativeDocumentMoniker": "api-tmb\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.json",
+              "RelativeToolTip": "api-tmb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T22:18:43.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.Development.json",
               "RelativeDocumentMoniker": "api-tmb\\appsettings.Development.json",
@@ -39,28 +234,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Program.cs",
-              "RelativeDocumentMoniker": "api-tmb\\Program.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Program.cs",
-              "RelativeToolTip": "api-tmb\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ServiceBusService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\ServiceBusService.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Services\\ServiceBusService.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\ServiceBusService.cs",
+              "RelativeToolTip": "api-tmb\\Services\\ServiceBusService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:20:06.94Z",
+              "WhenOpened": "2025-02-13T22:29:28.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.json",
-              "RelativeDocumentMoniker": "api-tmb\\appsettings.json",
-              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\appsettings.json",
-              "RelativeToolTip": "api-tmb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T22:18:43.655Z",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\OrderService.cs",
+              "RelativeToolTip": "api-tmb\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:25.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\IOrderService.cs",
+              "RelativeToolTip": "api-tmb\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:10.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IServiceBusService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\IServiceBusService.cs",
+              "RelativeDocumentMoniker": "api-tmb\\Services\\IServiceBusService.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\web-project-tmb\\backend\\api-tmb\\Services\\IServiceBusService.cs",
+              "RelativeToolTip": "api-tmb\\Services\\IServiceBusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:37.077Z",
               "EditorCaption": ""
             }
           ]
