@@ -46,18 +46,6 @@ docker-compose up --build
 
 Isso irá subir os contêineres do backend, frontend e banco de dados automaticamente.
 
-Após os conteineres iniciarem navegue até a pasta do backend:
-
-```bash
-cd backend/api-tmb
-```
-
-E aplique as migrações:
-
-```bash
-dotnet ef database update
-```
-
 O projeto estará disponível em:
 - Frontend: http://localhost:5000
 - Documentação da API (Swagger): https://localhost:3000/swagger

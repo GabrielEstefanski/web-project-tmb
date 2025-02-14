@@ -1,8 +1,11 @@
+using Polly;
+using System.Net.Http;
 using ApiTmb.Data;
 using ApiTmb.Data.Repositories;
 using ApiTmb.Hubs;
 using ApiTmb.Services;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,7 +28,15 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DbConnection")));
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DbConnection"),
+        npgsqlOptions => npgsqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(10),
+            errorCodesToAdd: null
+        )
+    ));
+
 
 builder.Services.AddSingleton<IHostedService, OrderProcessingWorker>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
@@ -39,12 +50,20 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-app.UseCors("AllowSpecificOrigin");
+await RetryDatabaseConnectionAsync(app);
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+app.UseCors("AllowSpecificOrigin");
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate();
 }
 
 app.UseHttpsRedirection();
@@ -53,3 +72,20 @@ app.MapControllers();
 app.MapHub<NotificationHub>("/notifications"); 
 
 app.Run();
+
+async Task RetryDatabaseConnectionAsync(WebApplication app)
+{
+    var maxRetries = 10;
+    var retryDelay = TimeSpan.FromSeconds(5);
+    var policy = Policy.Handle<NpgsqlException>()
+                       .WaitAndRetryAsync(maxRetries, _ => retryDelay);
+
+    await policy.ExecuteAsync(async () =>
+    {
+        using (var scope = app.Services.CreateScope())
+        {
+            var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+            await dbContext.Database.OpenConnectionAsync();
+        }
+    });
+}
